@@ -56,12 +56,17 @@ Une application **Streamlit** a été développée pour exploiter le modèle ent
 
 ```
 .
-├── notebook/           # Notebook complet : exploration, génération de densité, training, évaluation
-├── dashboard/           # Code de l'application Streamlit
-├── rapport/             # Rapport technique complet (PDF + LaTeX)
+├── dashboard/            # Application Streamlit (interface utilisateur)
+├── inference/            # Scripts d'inférence (chargement modèle, prédiction sur une image)
+├── models/               # Poids du modèle entraîné (best_csrnet.pth)
+├── Notebook/              # Notebook complet : exploration, génération de densité, training, évaluation
+├── config.py              # Configuration globale du projet (chemins, hyperparamètres)
+├── requirements.txt        # Dépendances Python
 └── README.md
 ```
 
 ---
+
+
 
 *Projet réalisé dans le cadre du cours INF4238 — Vision par Ordinateur, Université de Yaoundé I.*

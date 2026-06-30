@@ -31,7 +31,7 @@ Aucun dataset annoté par points adapté au contexte routier camerounais/africai
 
 | GAME(0) | GAME(1) | GAME(2) | GAME(3) |
 |---|---|---|---|
-| 5.53 | 7.44 | 8.91 | 10.82 |
+| 4.09 | 7.44 | 8.91 | 10.82 |
 
 Le MAE de 4.09 signifie une erreur moyenne d'environ 4 véhicules par image, y compris sur des scènes dépassant 50 véhicules enchevêtrés.
 
